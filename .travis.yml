@@ -1,3 +1,10 @@
 language: java
 jdk: oraclejdk8
 script: ant build
+addons:
+   sonarcloud:
+   organization: "kileyr-github"
+   token:
+      secure: 6892cf0711b4e4a9d9addfcb3a5bccf857c3547b
+   script:
+      - sonar-scanner
