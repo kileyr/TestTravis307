@@ -5,6 +5,6 @@ addons:
    sonarcloud:
       organization: "kileyr-github"
       token:
-         secure: 6892cf0711b4e4a9d9addfcb3a5bccf857c3547b
+         secure: b2bcf97d6e2eb0c3681113bfe6edb96a178808e3
 script:
   - sonar-scanner
