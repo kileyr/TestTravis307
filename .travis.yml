@@ -5,9 +5,9 @@ script: ant build
 
 addons:
   sonarcloud:
-    organization: "kileyr-github" # the key of the org you chose at step #3
+    organization: kileyr-github # the key of the org you chose at step #3
     token:
-      secure: b2bcf97d6e2eb0c3681113bfe6edb96a178808e3 # encrypted value of your token
+      secure: f49304b9703d917004ee6ff8bc7eba2d7b34a54a # encrypted value of your token
 script:
   # other script steps might be done before running the actual analysis
   - sonar-scanner
